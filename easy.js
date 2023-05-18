@@ -24,11 +24,11 @@ console.log(findLargestNumber(numberArr)); // Output: 9
 // Write a function that takes in a string and returns the number of vowels in the string.
 function countVowels(str) {
   let vowelcount = 0
-  const vowels =["a","e","i","o","u"]
-  for(letter of str){
-    if(vowels.includes(letter))vowelcount++
+  const vowels = ["a","e","i","o","u"]
+  for(letter of str) {
+    if(vowels.includes(letter))vowelCount++
   }
-    return vowelCount
+  return vowelCount
 }
 
 const str1 = 'Hello world';
