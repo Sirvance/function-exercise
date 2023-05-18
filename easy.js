@@ -9,10 +9,10 @@ function findLargestNumber(numbers) {
   // if current > largest
   // update larest
   // return largest
-  let largest=0
-  for(let i=0;i<numbers.length;i++){
+  let largest = 0
+  for(let i = 0;i < numbers.length;i++){
     if(largest < numbers[i])largest=numbers[i]
-}
+  }
   return largest
 }
 
