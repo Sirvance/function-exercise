@@ -10,7 +10,7 @@ function findLargestNumber(numbers) {
   // update larest
   // return largest
   let largest = 0
-  for(let i = 0;i < numbers.length;i++){
+  for (let i = 0;i<numbers.length;i++){
     if(largest < numbers[i])largest=numbers[i]
   }
   return largest
@@ -23,9 +23,9 @@ console.log(findLargestNumber(numberArr)); // Output: 9
 
 // Write a function that takes in a string and returns the number of vowels in the string.
 function countVowels(str) {
-  let vowelcount = 0
+  let vowelCount = 0
   const vowels = ["a","e","i","o","u"]
-  for(letter of str) {
+  for(letter of str){
     if(vowels.includes(letter))vowelCount++
   }
   return vowelCount
