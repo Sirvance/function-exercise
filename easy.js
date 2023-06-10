@@ -10,12 +10,12 @@ function findLargestNumber(numbers) {
   // update larest
   // return largest
  let largest = 0
- for(let i = 0;i<numbers.length;i++){
-   if(largest < numbers[i])largest = numbers[i]
+ for(let i= 0;i<numbers.length;i++){
+   if(largest < numbers[i])largest=numbers[i]
  }
   return largest
 }
-const numberArr = [5,1,9,3,7];
+const numbArr = [5,1,9,3,7];
 
 
 console.log(findLargestNumber(numberArr)); // Output: 9
